@@ -1,6 +1,7 @@
 #include "Leaver.h"
 namespace Leaver {
-	void Leaver::leave() {
+
+	void  Leaver::leave() {
 		cout << "Введите имя: ";
 		cin >> name; cout << "Здравствуйте, " << name << "!";
 	};
