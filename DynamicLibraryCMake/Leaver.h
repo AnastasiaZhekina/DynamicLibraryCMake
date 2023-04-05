@@ -1,6 +1,6 @@
 #pragma once 
 #pragma once 
-#ifdef DYAMICLIBRARYCMAKE_EXPORTS
+#ifdef DYNAMICLIBRARYCMAKE_EXPORTS
 #define DYNAMICLIBRARYCMAKE_API __declspec(dllexport)
 #else
 #define DYNAMICLIBRARYCMAKE_API __declspec(dllimport)
